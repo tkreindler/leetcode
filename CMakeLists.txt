@@ -5,7 +5,7 @@ project(testProject
     DESCRIPTION "A test project"
     LANGUAGES CXX)
 
-# add all source files to main executable
+# this is horrible practice but simulates leetcode well
 add_executable(main
     src/main.cpp)
 
